@@ -1,0 +1,26 @@
+
+@media (max-width: 767px) {
+
+    html {
+        font-size: 50%;
+    }
+
+
+/* start home */
+    .home .content h1 {
+        font-size: 4rem;
+    }
+
+    .home .content h3 {
+        font-size: 3.5rem;
+    }
+    
+
+
+
+
+
+
+
+}
+

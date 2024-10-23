@@ -1,0 +1,74 @@
+
+/*  */
+
+@media (max-width: 991px) {
+
+
+    /* section {
+        padding:1rem 3%;
+        padding-top: 8rem;
+    } */
+
+
+
+/* start header */
+    .header #menu {
+        display: block;
+    }
+
+    .header .navbar {
+        position: absolute;
+        top:100%;
+        left: 0;
+        width:100%;
+        background:#fff;
+        padding:2rem;
+        border-top: .1rem  solid rgba(0,0,0,.1);
+        border-bottom: .1rem  solid rgba(0,0,0,.1);
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+        transform-origin: top;
+        opacity: 0;
+        transform: scaleY(0);
+        -webkit-transform: scaleY(0);
+        -moz-transform: scaleY(0);
+        -ms-transform: scaleY(0);
+        -o-transform: scaleY(0);
+    }
+
+    .header .navbar.nav-toggle {
+        transform: scaleY(1);
+        opacity: 1;
+    }
+
+    .header .navbar a {
+        display: block;
+        margin:1.5rem 0;
+        font-size: 2rem;
+        line-height: 40px;
+    }
+
+    .fa-times {
+        transform: rotate(180deg);
+    }
+
+
+
+/* start symptoms */
+    .symptoms .column .main-image img {
+        display: none;
+    }
+
+
+
+/* start hand-wash  */
+    .hand-wash .column .main-image img {
+        display: none;
+    }
+
+
+
+
+
+
+
+}
